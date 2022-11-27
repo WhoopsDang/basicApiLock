@@ -2,7 +2,9 @@ var express = require("express");
 var app = express();
 var isOpen = false;
 
-
+app.get("/", (req, res, next) => {
+    res.send("Hello World")
+   });
 
 app.get("/open", (req, res, next) => {
     isOpen = true;
