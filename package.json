@@ -1,0 +1,14 @@
+{
+  "name": "basicapilock",
+  "version": "1.0.0",
+  "description": "Api for Lock Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
